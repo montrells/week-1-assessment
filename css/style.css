@@ -1,0 +1,180 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    font-size: 25px;
+    margin: 0%;
+
+}
+
+body {
+    line-height: 1.6;
+    color: #3a3a3a;
+
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+
+}
+h1{
+    margin-top: 0;
+}
+li a{
+    padding-left: 1em;
+    padding-right: 1em;
+    float: right;
+}
+
+li img{
+    padding-left: 1em;
+    padding-right: 1em;
+    float: right;
+
+}
+h1{
+    font-weight: bold;
+    text-shadow: 1px 0px 5px #4c68d7;
+
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    background: #4c68d7;
+    padding: 10%;
+    z-index: -5;
+
+}
+
+.container{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 100px;
+    float: right;
+    box-sizing: content-box;
+
+
+}
+
+.main-footer {
+    text-align: center;
+    padding: 2em 0;
+    background: white;
+
+
+}
+.footer-nav li{
+    display: inline-block;
+    color: navy;
+    background: white;
+}
+.footer-nav li, a {
+    color: navy;
+    font-size: 20px;
+}
+.footer-nav li, span {
+    color: gray;
+    font-size: 20px;
+}
+.main-nav li {
+    display: inline;
+    float: left;
+
+}
+.main-nav li a{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    width: 120px;
+    height: auto;
+}
+.main-nav li, h1 {
+    display: inline-block;
+}
+.phone img {
+    position: relative;
+    left: 150px;
+    top: 0px;
+    width: 600px;
+    height: auto;
+   margin-bottom: 10%;
+    padding: 10px 1em;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.copy {
+    position: relative;
+    left: 50px;
+    top: 0px;
+    width: 400px;
+    height: auto;
+}
+.logoButton {
+    padding: 20px;
+    width: 350px;
+    height: 150px;
+
+
+}
+.brand{
+    position: relative;
+    left: 160px;
+    top: 0px;
+    width: 500px;
+    height: auto;
+    padding: 1em 1em 1em;
+}
+.logonButton {
+    position: relative;
+    left: 150px;
+    top: 10px;
+    height: auto;
+
+    background-color: #4c68d7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+{
+
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    .wrap {
+        min-height: calc(100vh - 89px); /*pushing the footer down*/
+
+
+    }
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+/* ---- Page Elements ---- */
