@@ -143,20 +143,18 @@ h1{
     width: 500px;
     height: auto;
     padding: 1em 1em 1em;
+    float: left;
 }
-.logonButton {
-    position: relative;
-    left: 150px;
-    top: 10px;
-    height: auto;
-
-    background-color: #4c68d7;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+button {
+    background-color: #4CAF50; /* Green */
     border: none;
-    cursor: pointer;
-    width: 100%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    float:right;
 }
 {
 
