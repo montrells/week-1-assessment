@@ -75,7 +75,7 @@ h1{
 }
 
 .main-footer {
-    text-align: center;
+    text-align: center; /*align this text in the footer to be more centered*/
     padding: 2em 0;
     background: white;
 
