@@ -4,8 +4,8 @@
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
-    padding: 0;
+    font-family: sans-serif; /*using san-serif as my default text on the whole page*/
+    padding: 0;            /*making sure that the padding has no default formatting*/
     font-size: 25px;
     margin: 0%;   /*Getting rid of some possible default settings*/
 
@@ -13,7 +13,7 @@
 
 body {
     line-height: 1.6;
-    color: #3a3a3a;
+    color: #3a3a3a; /*color is gray like*/
 
 
 }
